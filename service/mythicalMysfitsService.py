@@ -36,6 +36,7 @@ def getMysfits():
 # parameter as their ID.
 @app.route("/mysfits/<mysfitId>", methods=['GET'])
 def getMysfit(mysfitId):
+    print("In getMysfit(mysfitId) with id %s"%(str(mysfitId)))
     serviceResponse = mysfitsTableClient.getMysfit(mysfitId)
 
     flaskResponse = Response(serviceResponse)
