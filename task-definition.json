@@ -6,8 +6,8 @@
   "requiresCompatibilities": [
     "FARGATE"
   ],
-  "executionRoleArn": "arn:aws:iam::184384743829:role/MythicalMysfitsCoreStack-EcsServiceRole-EMA0ASIMK8N",
-  "taskRoleArn": "arn:aws:iam::184384743829:role/MythicalMysfitsCoreStack-ECSTaskRole-E6E5EJC8582D",
+  "executionRoleArn": "arn:aws:iam::184384743829:role/MythicalMysfitsCoreStack-ECSTaskRole-1AY61IUFXV3SU",
+  "taskRoleArn": "arn:aws:iam::184384743829:role/MythicalMysfitsCoreStack-ECSTaskRole-1AY61IUFXV3SU",
   "containerDefinitions": [
     {
       "name": "MythicalMysfits-Service",
